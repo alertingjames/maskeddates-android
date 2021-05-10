@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:visibility="visible"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do You Like Attention?"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/first"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/gray_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/party"/>
+                <TextView
+                    android:id="@+id/firsttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes,I'm the life of the party"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/firstbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/second"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/gray_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sometimes"/>
+                <TextView
+                    android:id="@+id/secondtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sometimes, but sometimes not"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/secondbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/third"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/gray_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dolikeown"/>
+                <TextView
+                    android:id="@+id/thirdtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, I like to do my own thing"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/thirdbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

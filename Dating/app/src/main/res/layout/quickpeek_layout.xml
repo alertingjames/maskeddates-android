@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_shadow"
+    android:id="@+id/qalayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:textColor="#a4a4a4"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/editicon_red"/>
+    </LinearLayout>
+</FrameLayout>

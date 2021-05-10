@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="com.date.maskeddates.main.TermsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Services"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Our Services generally as Connection dating that can be accessed through our Application [hereinafter as App] MaskedDates which allows users [hereinafter as ‘you’ or ‘your’ or ‘yourself’] to access online dating services.
+Our App will run on Android, Windows and iOS and can be downloaded from Window Store, Apple Store and Google Play Store."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payments"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="By default, we may offer the basic services of the App at no costs and with no payment and/or card required. Should you wish or choose to upgrade to premium services, you will be required to use your credit card, bank Payment, PayPal, Google Pay, Apple Pay, and/or any other payment method that is incorporated in the App or recommended by your service provider, Operating System which we have allowed.
+You agree that all the Terms of Use with respect to payment, verification of payment, guidelines, and it’s any other rules provided herein by ourselves shall guide you when making any payments, subscription and any in App purchases while using the App.
+You may be required to share your financial information with us Payment Gateways for payment processing such as subscription and purchase while using the App.
+The app has in-app purchases and Ads whereby you may be required to make payments or purchases to access certain and/or all features.
+All the in-App payments and purchases that you make shall be non- refundable."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These Terms"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="These Terms of Use [hereinafter as ‘Terms’] shall govern your usage of and access to the App.
+These Terms shall have full force, this you agree and acknowledge. You have expressly agreed to be bound by all provisions as set herein and hereby. Should you have any disagreement or objection to any of these terms, you must not use the App.
+The App is not for use by minors [those who are below the age of 18 years]. However, if your locality and/or jurisdiction permits you to enter into a contract at an age that is less than 18 years for example 16 or 17 years or whatever the case, you will be deemed to have the capacity to use our App and to have entered into this Agreement."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restriction"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You are hereby emphatically and expressly restricted from doing or causing to be done the following:
+a.	Sharing any confidential material on your use of the App such as passwords and credit card information.
+b.	Unlawfully and without consent publishing any copyrighted material and content on the App;
+c.	Sublicensing, selling, leasing and/or otherwise exploiting commercially any of the App material or content;
+d.	Showing, displaying, and/or causing to be shown or displayed and publicly performed any App material or content;
+e.	Making use of the App in a manner which is damaging to the App or services provided therein;
+f.	Making use of the App in a manner that affects the users or affects users accessing to the App;
+g.	Making use of the App in a way that is contrary to the law, a manner that is not permitted by the law, and/or a manner that attracts civil or criminal liability, whatsoever sanctions or injunctions, and or causes harm in any way to any person artificial or natural;
+h.	Engaging in any data harvesting, data siphoning, data extraction, data mining, and/or any other similar or related activities; and
+i.	Using the App to perform and/or engage in marketing, advertisement, and/or both without our consent."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Use of the App"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You will be permitted to log into the App using your social media accounts such as Facebook, Google and any other as permitted by the App.
+You will also be permitted to upload and share photos, pictures, answer questions about yourself and complete your profile. The images and photos that you share may be subject to review and approval us.
+You agree that you will create one account only. In addition, in order to maintain the integrity of the App and our services, you agree that when you use the App you will use the same in good faith and for relationship seeking only and not otherwise. We may or will create test profiles to monitor operations of the App and our services and your compliance with these Terms.
+The App may allow you to search, follow and friend matches whereafter you may be allowed to chat, share photos, videos, and any other communication with other App users.
+We will not be responsible for any damage or harm between you and any third party App user. We do not validate any information that is provided by other App users and are not responsible for any arrangements, plans, or exchanges between you and other App users.
+The App may contain links to other third party websites and web pages that are not owned, operated or controlled by ourselves. We will not be responsible for any loss occasioned to you when you access these third party websites and links."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Conduct"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="In your use and interaction with other users of the App (including, but not limited to: site messages, sharing photos and images, instant messages, journal postings, and forum comments), you have agreed and acknowledged that you shall conduct yourself civilly and respectfully. While using the App, you agree that under no circumstances will you harass, abuse, insult, antagonize or make mischief against other users of the App.
+We will employ standard industry standard efforts to safeguard user privacy, data and information. We advise that absolute security is not guaranteed by us.
+You are advised and warned that all information that is submitted or shared in the App may potentially be publicly accessible. Should you share your personal data and information with third party App users, we will not be responsible for any loss or damage should the same be made public. You have the responsibility of doing due diligence on the information that you share and further ensuring that all your account details are kept secret and confidential."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intellectual Property"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Save for the content that you own, and which you may opt to add to, share, transmit, or include in the App, we and/or our licensor and assigns shall own all the right in the material and intellectual property that is contained in the App.
+Should you have any right, the same has been granted to you by us temporarily and is limited subject to the limitations and restrictions provided herein, and to the extent permitted by the applicable law. We and our licensors and assigns reserve all the rights to the intellectual property in the App."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Warranty"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The App is hereby offered to you ‘as is’ and with them all the faults and we make no implied or express warranties and/or representations to you of any type relating to the quality, your use, and the content and materials which are contained in the App, or the services which are provided in the App. Nothing that is provided on the App and/or otherwise in our services shall be construed to amount to advice or consult. You are hereby advised and reminded to seek legal advice or otherwise consult a relevant expert before taking any action."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Content"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="In these Terms, Your Content shall include and not limited to any text, video, audio, images, and/or any other material that you have transmitted, shared, sent, emailed, received, forwarded, and/or stored when the App or services provided by it.
+By using our App, you grant us an unlimited, irrevocable, non-exclusive, royalty-free, license and/or sublicense to adapt, use, reproduce, translate, publish, and/or distribute the same only so far as necessary and to the extent limited by applicable law."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account and Data"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/termsaccount"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Storage and Processing"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="We will have the authority and your consent to store and process your content, data, or information for purposes that are connected to your use of our services and those which are incidental as such.
+Should we require collecting additional content or data, you have given us express authority as such. We may notify you through email or pop-up of the information that we collect.
+You also consent that we may use any technology, algorithm, or a combination of technologies to store or process your data, content or information.
+For more information on how we will treat you data, you must read and familiarize yourself with our Privacy Policy that can be found here."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You have agreed that we may store and process your data outside the locality, jurisdiction, nation, or region that you reside in. Take notice that we may also contract a third party to process and store your data.
+You acknowledge and agree that wireless data storage, transmitting, and storage is not secure and can be prone to data loss and unauthorized access. On our end, we will take reasonable action, set up necessary measures or security, and liaise with those we engage in data processing and storage to ensure that your data is secured."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liability Limitation"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You acknowledge and agree that in no event shall ourselves, nor any of our directors, officers, employees, and assigns be held liable to you for any claim, damages, losses, and/or disputes that are in connection with or are arising out of your use of our App or our services.
+You expressly agree that this limitation and exclusion shall be with respect to a claim which arises out of tort, contract, or otherwise. Take notice that Terms do not limit liability with respect to death or personal injury."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Other Parties"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You hereby agree that all provisions of these Terms are reasonable, and you have read the same and understood agree and acknowledge that we have an interest in limiting and/or excluding the personal liability of our officers, representatives, agents, and employees. You further have agreed that you will not start a claim, legal action, and/or a dispute as against our people aforementioned hereinabove."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reasonableness"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="By you using the App and the services, you agree and acknowledge that our Terms are reasonable and that our exclusion and/or limitation of liability is reasonable and fair. If you think, deem or otherwise see these Terms as unreasonable you must not use our App."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security and Due Diligence"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You have a duty to ensure that information that you share, store, or transmit using our App is not illegal and complies with applicable laws and our Terms herein.
+You must not upload, share, transmit, store or otherwise deal with in any manner any malicious material. You must not cause any denial-of-service DOS attack, bombs, worms, or logic bombs to be shared, stored or transmitted via our services or App.
+You are responsible to ensure that your internet system, computer, devices, VPN, network or any other access devices and/or protocols are configured properly to prevent any data loss, attack and/or breach, unauthorized access, and/or compromise of our systems or App."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assignment"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="We shall be permitted fully under these Terms to transfer, assign, subcontracts, or otherwise pass our obligations and/or rights under these Terms without any consent or notification required to be obtained from you.
+You agree expressly that you are not permitted to transfer, assign, or subcontract any of the rights and/or obligation which you have or hold and emanating from these Terms."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indemnification"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You have agreed to indemnify us to the fullest of extent any liabilities that we suffer from causes of action, demands, costs, damages, losses, expenses which will include reasonable legal fees, which arise out of or in connection with or otherwise related to your breach of any of the terms which are set herein."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Variation"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You have permitted us to make changes, amend, vary, revise and/or update these Terms at any times as we deem fit or necessary, and by your continued use of our services and App, you will be deemed to have agreed with and to be bound by the revised Terms which shall take effect a month after the same is varied. Should you be a new user the updated Terms shall take effect immediately.
+You are advised to check this page regularly or your mailbox for notification of updated Terms. Take notice that should you fail to check your mailbox and/or our Terms of Use page regularly for the updated Version of the Terms, you shall not use the same reason as a defence against us."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Severability"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Should any term or provision herein be rendered unenforceable, invalid, and/or illegal under any applicable law or by a court sitting with competent jurisdiction, such illegality, unenforceability, or invalidity shall not render the remainder of the Terms invalid, unenforceable, or illegal. The terms and clauses rendered unenforceable or otherwise shall be deleted or removed without affecting, negating, and/or modifying remainder of the provisions herein."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entire Agreement"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The herein terms, which include any legal disclaimers and notices that are contained in the App or these Terms shall constitute the entire agreement between yourself and us with respect to your use of the App, and shall, in addition, supersede and succeed all the prior understandings and agreements which concern the same."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Law Governing and Disputes"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/lawgoverning"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/contactusterms"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

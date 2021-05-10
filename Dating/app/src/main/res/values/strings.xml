@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Masked Dates</string>
+    <string name="facebook_app_id">493813264392237</string>
+    <string name="fb_login_protocol_scheme">fb493813264392237</string>
+    <string name="gettoknow">Get to Know</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <array name="menuOptions">
+        <item>Users</item>
+        <item>My Profile</item>
+        <item>Notifications</item>
+        <item>LOG OUT</item>
+    </array>
+
+    <string name="lorem">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		In mollis est vitae erat laoreet consectetur. Mauris dui mauris,
+		dictum vel egestas vel, porta sed ante. Phasellus congue viverra ipsum,
+		in elementum arcu ultricies nec.Morbi tincidunt nisl lacinia, placerat nisi eget, luctus tortor.
+		Morbi efficitur dictum leo, sit amet volutpat lorem sodales nec. Quisque et erat et turpis fringilla condimentum.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor vulputate libero vitae iaculis.
+		Curabitur id blandit quam. Praesent massa ante, pulvinar vitae sagittis commodo, scelerisque porttitor eros.
+		Mauris suscipit a enim nec congue. Mauris tristique cursus aliquet. Nunc quis hendrerit nunc. Praesent tristique tellus purus,
+		a pretium ex gravida id. Cras laoreet malesuada nulla, at bibendum metus ultricies a. Fusce eu ornare arcu. Proin ut molestie est.
+		Vestibulum quis vehicula erat. Nam sed tempus nibh. Sed tortor ante, maximus venenatis odio sed, ultricies maximus lectus.
+		Aliquam sed volutpat ligula. Integer bibendum, magna ac lacinia suscipit,
+		risus libero rutrum justo, sed tempus augue tellus eget est. Curabitur convallis augue nisl,
+		id efficitur urna posuere faucibus. Ut sed egestas nulla, eu finibus metus. Nunc a arcu ante.
+		Aenean ullamcorper dolor non condimentum congue. Aenean mauris nunc, pellentesque at placerat vitae,
+		aliquet quis orci. Curabitur maximus augue ut bibendum sagittis.
+	</string>
+
+    <string name="banner_home_footer1">ca-app-pub-7394008719373168/9700378139</string>
+    <string name="banner_home_footer">ca-app-pub-7394008719373168/4432573732</string>
+
+    <string name="InAppPurchaseKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvf16W4KzVMxGPG2nVJbP4AUq2JBr0DrNFkhhjZg/+6cqIaJMSazfzS96/OaXt3LuEYmJkcFKI1ABsCkIpeXQXMhKNZ9M2Uqg8bs5+8b80IbDn6yWbzq6XGK7dHg4oILVodCJey0XR5kMeaNOENPKnF4uRrfRfalkF6PmIJYrbBcMvlZ2B6Tw3yz1LAWyyV1pr/Q7AMI0TPLCXRoDIOvn0r+/PylEHY+C0Bpf9d3XvIkdX2AIijw9quxh3pgoyb3xwQx6TG/oB3NkQkYpC+xhvR2NxDs7iGDOSSm8cCuhPSqf1wSFGvSOV8+yJYSPw1D5IDCpxRaCMLv2l9FxrXluxQIDAQAB</string>
+    <string name="default_album_cover">https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/7q6AXSKeuBG.png</string>
+
+    <!-- Font -->
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+
+    <string name="number_picker_formatter">%02d</string>
+    <string name="expired_premium">Your membership has been expired.\nExpired date: 6/30/2018 10:45 AM\nMax matches: 6</string>
+
+    <string name="termsstring">
+		We don\'t post anything to Facebook.\nBy signing in, you agree with our
+	</string>
+    <string name="terms"><u>Terms of Service</u></string>
+    <string name="policystring"><u>Privacy Policy</u></string>
+    <string name="termslink"><u>https://www.maskeddates.com/static/dating/Terms%20of%20Use-Masked%20Dates.docx</u></string>
+    <string name="contactusterms">Should you have any queries, questions and inquiries concerning the use of our App, you are advised to contact us through <u>support@maskeddates.com</u>.</string>
+    <string name="contactusprivacy">You are at liberty to contact us, share any information, and raise your objections. You may also raise queries, inquiries, and questions concerning our Policy. For example, you may share any information with us concerning any provision in this Privacy Policy or seek clarification.
+Should you be living in EAA you may also contact us when you wish to exercise any of your rights as allowed and the extent permitted by applicable law, our Terms, End User License Agreement, and the GDPR.
+Contact us through <u>support@maskeddates.com</u> for any comments, reviews, objections and inquires with respect to our Privacy Policy.</string>
+    <string name="lawgoverning">Should you have any dispute, claim or action against us, you are to notify us and seek an out of Court settlement prior to seeking judicial redress. You can contact us through <u>support@maskeddates.com</u> for any claims and complaints.
+We will/shall/or may take up your matter for arbitration for any dispute that arises between yourself and us in relation to the performance.
+The provisions herein shall be construed, interpreted, and governed in accordance with and by the laws of the state of India. Further, you have expressly agreed that non-exclusive jurisdiction shall be vested in the federal and state courts located in the state of India.</string>
+    <string name="termsaccount">You must register for our services through our App using accurate details and information. Should you update any details you should update the same on your account.
+With respect to your account, you have agreed that you will keep your account details confidential and should we provide to you any login details, username, passwords, and/or passcodes, you agree to keep the same confidential and never to share the same with any third party. We will at all times assume that it is you who has the control of the App or account and should any request, order, and/or action be made thereof, we shall comply only as far as the same are within these Terms.
+When you register as a user and/or agree to use the App, you give us revocable consent to collect your data, transmit the same, send, process, or share the same as per your instructions.
+Without prejudice to the generality, your data shall include your emails, messages, texts, location history, account logs, user-generated data, cookies, and other personal and user data. You agree that we may collect your data from our App.
+Our services and App may allow you to connect, integrate and/or link your account to other third parties such as Facebook. Take notice that some third parties may allow you, us, and/or themselves to share information, data, and content between our services and their services. Take further notice that these Terms shall only apply to our services and should you share your content, details and/or data you do so at your own risk.
+Should you seek to terminate your linkage or integration with third parties visit <u>support@maskeddates.com</u> or contact your respective third-party service provider. You agree that we have your permission to track and collect any material that is shared or transmitted to and from the connected third party.
+You are notified and you are in full agreement that we are at liberty to include and/or place an advertisement content and marketing material in the App. At all times during the subsistence of these Terms, you shall be deemed to have expressly agreed, permitted us, and consented to our use of your information, content, preferences, whether personal or user data to place any appropriate and relevant targeted marketing in the App.
+You have expressly authorized us to collect, store and/or process your sensitive material, information and data that shall include your financial information and/or records and transactions. We may use the same information to comply with any tax or legal obligation when necessary, this you have agreed to.
+You agree and expressly acknowledge that we may restrict access by you to all or part of the App at any time in our absolute and sole discretion.
+Should you wish to close your account you must notify us through <u>support@maskeddates.com</u>.</string>
+</resources>

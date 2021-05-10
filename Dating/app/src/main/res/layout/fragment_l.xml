@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How do you let the world know what you're feeling?"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:padding="6dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/first"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/linkedin"/>
+                <ImageView
+                    android:id="@+id/firstbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/second"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/facetimeicon"/>
+                <ImageView
+                    android:id="@+id/secondbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/third"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/instagram"/>
+                <ImageView
+                    android:id="@+id/thirdbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fourth"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/fb"/>
+                <ImageView
+                    android:id="@+id/fourthbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

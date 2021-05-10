@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Unlock Face -->
+    <item
+        android:id="@+id/unlock_face"
+        android:title="View unraveled photo"
+        android:icon="@drawable/unlockfaceicon"
+        android:showAsAction="always"
+        android:onClick="unlockFace"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Unlock Face -->
+    <item
+        android:id="@+id/gallery"
+        android:title="View gallery"
+        android:icon="@drawable/gallery_red"
+        android:showAsAction="always"
+        android:onClick="viewGallery"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Unlock Face -->
+    <item
+        android:id="@+id/profile"
+        android:title="View profile"
+        android:icon="@drawable/usericon_red"
+        android:showAsAction="always"
+        android:onClick="viewProfile"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Block -->
+    <item
+        android:id="@+id/block"
+        android:title="End date"
+        android:icon="@drawable/blockchaticon"
+        android:showAsAction="always"
+        android:onClick="blockUser"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Unblock -->
+    <item
+        android:id="@+id/unblock"
+        android:title="Date again"
+        android:visible="false"
+        android:icon="@drawable/unblockchaticon"
+        android:showAsAction="always"
+        android:onClick="unblockUser"
+        tools:ignore="AppCompatResource" />
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Location -->
+    <item
+        android:id="@+id/attach_location"
+        android:title="Location"
+        android:icon="@drawable/marker"
+        android:showAsAction="always"
+        android:onClick="pickLocation"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Gallery -->
+    <item
+        android:id="@+id/attach_gallery"
+        android:title="Gallery Picture"
+        android:icon="@drawable/galleryicon"
+        android:showAsAction="always"
+        android:onClick="fromGallery"
+        tools:ignore="AppCompatResource" />
+
+    <!-- Photo -->
+    <item
+        android:id="@+id/attach_photo"
+        android:title="Camera Photo"
+        android:icon="@drawable/cameraico"
+        android:showAsAction="always"
+        android:onClick="takePhoto"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <!--video-->
+    <item
+        android:id="@+id/attach_video_gallery"
+        android:title="Gallery Video"
+        android:icon="@drawable/videogalleryicon"
+        android:showAsAction="always"
+        android:onClick="pickVideo"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/attach_video"
+        android:title="Camera Video"
+        android:icon="@drawable/videorecordicon"
+        android:showAsAction="always"
+        android:onClick="takeVideo"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <!--audio-->
+    <item
+        android:id="@+id/attach_audio_storage"
+        android:title="Audio File"
+        android:icon="@drawable/audiostorageicon"
+        android:showAsAction="always"
+        android:onClick="pickAudio"
+        android:visible="false"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/attach_audio"
+        android:title="Live Audio"
+        android:icon="@drawable/audiorecord"
+        android:showAsAction="always"
+        android:onClick="recordAudio"
+        app:showAsAction="always"
+        android:visible="false"
+        tools:ignore="AppCompatResource" />
+
+    <!--document-->
+    <item
+        android:id="@+id/attach_file"
+        android:title="Document"
+        android:icon="@drawable/filestorageicon"
+        android:showAsAction="always"
+        android:onClick="pickDocument"
+        app:showAsAction="always"
+        android:visible="false"
+        tools:ignore="AppCompatResource" />
+
+    <!--questions-->
+
+    <item
+        android:id="@+id/helpful"
+        android:title="Icebreakers"
+        android:icon="@drawable/icebreakericon"
+        android:showAsAction="always"
+        android:onClick="icebreakers"
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+</menu>

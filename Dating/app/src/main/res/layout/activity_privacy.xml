@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="com.date.maskeddates.main.TermsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="This Privacy Policy [herein also referred to as ‘Policy’] was amended on 1-September-2018.
+The Policy shall apply to your use of the MaskedDates App as set forth herein and as set forth in our Terms of Use which can be found here."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="The object of this Policy is to assist us to protect your right and issue you with our guidelines, rules, and terms, and most importantly the basis and/or rationale for our collection and storage of your information, data, and/or content. Further, this Policy shall set out the legal rationale for our processing of your data by us or our processors.
+This policy shall be applicable at all material times when you use the App and specifically:
+a.	To the functionalities and features of the App which we have provided or provide or will provide to you when you access, or
+b.	Applicable when an application is made by you to use the App;
+c.	To all electronic messages, communications, emails, pop-ups, chats, telephone, SMS, portals and/or any other communications thereof that are between ourselves and you, and/or you and any other third party to the extent permitted by applicable law;
+d.	To your use and/or access of the App, services, terminals, protocols, algorithms, systems, mobile platforms, phablets, desktops, notebooks, tablets and/or other devices and equipment or technologies used to provide you with our services and App or which you use to access our services and App.
+You are put to and on notice that you should read these provisions carefully to understand our Privacy Policy in depth and further our views regarding your personal data and how we intend to collect and store the same."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information that We Can Collect"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You may provide to use, store with use, transmit or share your data and information while using our services and App. We may collect any information that you use, transmit, share, or store, with us at any time. You will provide personal and financial details during registration or otherwise which we are permitted to collect, store or process the same information.
+Take notice that we collect data, content or information about your activities while using the App. Without prejudice to the generality, this information includes and not limited to service-related, performance-related information, or diagnostic data and/or information. Further, the data or information includes your activities while using the App, frequency, the time you log in and log out, your interactions, the duration of interactions, diagnostic, log files, reports, crash, performance logs, and any other information thereof as permitted by law and to such as extent as permitted.
+We may collect and store information from any time and at any interval such as when you register, when you make payments, shared and uploaded photos and profile image.
+We will also be able to collect information constantly or when you install, use, and/or access our services through any device(s), which pertain connection. This will cover information like battery level, hardware models, signal strength, operating system, network properties, network strength, version of the App, Version of the App and information, operating system version, connection information such as phone number, ISP, mobile operator, time zone, the language, the IP and IP address, identifiers, and/or device operation information.
+Should you allow our App to access your divide location features or should turn on your location we will be able to collect and share your status and location with others users and contacts. We will also be able to collect information for troubleshooting and diagnostics if you have a problem. We will use our technologies to determine your GPS, IP, WiFi, cell towers, beacons, and/or Bluetooth signals.
+You will be mandated to fill out or fill in our forms of registration in order to access our services. You may also fill out forms and questionnaires when participating in our surveys and reviews. You may also send us information through chat, email, SMS, and/or otherwise. Take notice that we may collect the same information store, store it, and/or process it.
+We can obtain secondary data or otherwise primary data through content, data or information that is shared by you to other third parties or when you receive any data, content, or information from third parties which share content, data, or information with you.
+We may use your Facebook/Gmail account to collect and fetch any information or basic information like age, location, name, photos, friends, tastes and preferences among other information."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Data, Information, and Details which are Collected"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="We shall not transmit, share, disclose, or otherwise deal with your personal information, details, or data to any third party whatsoever, except as allowed by this Policy and our Terms of Use.
+We are permitted to transmit and share your personal information, content, and/or data as per your instructions and details so far as practicable under this Policy.
+Should we be mandated by any applicable law whether national or international we shall share your data to the extent and limitation permitted by such laws.
+We may share or disclose your data should there be a legal proceeding which is against us for the protection of our rights, our representatives, customers, employees, and agents."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where you Data is Stored by us"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="For any material that we collect from you, you share with us, or we otherwise transit through our services, you are notified that we reserve the right to decide where and when the same is processed and/or stored.
+We can store and/or process your data and/or information by using third parties who are located within and outside your locality, region, and/or jurisdiction.
+Should you be a resident of any nation within the European Economic Area (EAA) you are notified that your information and data may be processed at and/or stored by a third party who is located outside the EAA. You are notified that the third parties may and may not meet the minimum conditions and standards of data and information protection that are provided in the General Data Protection Regulation (GDPR). In some cases, the minimum requirements and standards could be lower than those in the localities which you.
+Reasonable care, measures, and due diligence will be taken by us, including taking ensuring appropriate steps are taken and put in place by third parties which store and/or process our data (should we use third parties for such purposes). We shall require these third parties to have applied methods and measures to safeguard and protect your information and data.
+You are not to sell, share, send, distribute, and/or transfer your user account, your password, and your account, to/with any third party. You authorize us to comply and act on any orders and requests that are made from your account and at all times you agree that any person who access your account and its details can use your account to your own peril.
+We will send or provide you with a username, passwords, and any relevant details to allow you log into your account and prevent any unauthorized login. You will also comply with our secure login features and user identification features to help us assist you to authenticate your account. It shall remain your responsibility to keep the same said passcode, password, user login details, and/or any other details confidential. Further, take notice that for protection of your account you should comply with our directions and instructions in this policy and if we provide the same to you by email or otherwise.
+Take notice that it is not absolutely secure to share, transfer, store, process, send, and/or transmit data, information and/or content. We will make sure that we put up and/or secure the use of relevant software, protocols, hardware, and/or any other items to secure your information and data. However, we do not guarantee to you that you will have absolute safety and security with respect to any data, information, and/or content that you share, send, transmit, transfer, store, and which we process and store on your behalf.
+You authorize us to retain your messages and anything that your share in our servers for your ease of access. Your messages (inclusive of photos, images, voice messages, chats, files, and any other messages) shall remain in our servers even after you have deleted the same or the same have been delivered to respective recipients. We will also be able to access the messages that are stored and delivered to your own devices which messages shall be the ones in connection with our services and not any other.
+We may offer end-to-end encryption for our services to protect your messages from unauthorized access from third parties. To enable us and assist us in protecting your messages, data, and information from unauthorized access, you are encouraged to communicate with us using secure channels and portals that we provide to you. We advise you to avoid accessing your account using public networks and you must always log out of insecure networks, devices, and systems."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Rights"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="To the extent that is allowed and permitted by any applicable law you may have right specified and outlined under the various data protection law that could include right to update and delete, right to correct, and the right to access. Should your applicable law lack any such right then you are not entitled to such any right that is made reference herein unless expressly allowed by us.
+You may request for transmission of your data to a device or another third party services. You may have any consent given to us revoked and or withdrawn only so far as allowed by applicable law. Where we are using or we use your data and information for direct marketing. You have agreed that we have the right to share any email, messages, marketing and advertisement with you through your registered email or through the App.
+In as much as you have the right to withdraw your consent, by default when you register with us for use of our services, you expressly and emphatically give us default consents and or permissions. You may withdraw your consent by using our settings page."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Decision Making that is Automatic"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Automatic decision making means computer, algorithm assisted and machine mode decisions with respect to your data, information, requests, queries, and or any other functionality which we have allowed to use the automated decisions feature. Take notice that the working of automatic/automated decision is devoid of human review, intervention or input.
+Without prejudice to any functions which we may automate or cause to be done by this feature and/functionality, we may use automated decisions for verification, payment, processing your data and information, credit assessment and/or communication with you.
+Should you be a resident of the EEA you may only call or contact us and object to automated/automatic decision-making on substantive grounds and not any other. Note that you cannot object to our storing and processing of your data, and/or to any other core features, we perform."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Legal Basis for Processing"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="If you reside in a locality or jurisdiction which data protection laws do not mandate for and/or provide for a legal basis of data processing, this provision under this heading shall not guide or bind you.
+Should you be a resident of EAA, you have specific rights under the GDPR and therefore we provide these justifications as guided by GDPR to explain why we have to process your data. You have the right to request for access to, erasure, and rectification of your data. Should you request these from us, take notice that we are at liberty to do the same and delete or suspend your account.
+We can process your data based on the below-stipulated reasons:
+a.	Based on the permission and consent which you grant us to process and store your data;
+b.	While acting on a legal or legitimate claim, subject and to the extent permitted by applicable law;
+c.	If it is mandatory and necessary that we have to process the data for us to perform any contractual obligation, task, function which we have under any contractual arrangement that we have entered into with you.
+d.	When your data is mandatory for protecting the rights and interests of a third party and when we have a legal mandate to collect your data; and
+e.	When it is justified under public interest and in the interest of justice for example when required for our compliance with regulatory requirements and for law enforcement purposes.
+Should you wish to withdraw your consent for data processing of allowed and backed by any applicable law, we may not instantly remove or delete your data. Should you do so, we will cease to collect any data from the day you withdraw your consent.
+In complying with your request to withdraw or object to your data processing, we will be guided by a number of considerations such as the risks and the benefits of third parties, our investments and business, the reasonable expectations of users, and any other factors to achieve a proportionate and fair action from our part.
+When you object the same should be backed by applicable law and comply with this privacy policy ad any other arrangement with us and there should be compelling legitimate grounds for your objection."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Changes"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="We will make any changes, variation to this Policy as we deem fit and necessary and the same changes shall be posted on this page, and the date of the changes shall be indicated above the Policy.
+Any change will take effect one month after we make the same if you are an existing user. For new users, the changes will be in force immediately you sign up for our services."
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/contactusprivacy"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+

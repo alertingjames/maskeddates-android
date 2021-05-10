@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".video.VideoPlayActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#14000000"/>
+
+        <RelativeLayout
+            android:id="@+id/lytvideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="120dp"
+            android:orientation="vertical">
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videoView"
+                android:scrollbarThumbVertical="@anim/space"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/videoUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_below="@+id/videoView"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:autoLink="all"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                android:gravity="center"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/downloadicon"
+            android:padding="8dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

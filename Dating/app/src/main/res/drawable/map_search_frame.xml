@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item android:top="3px"
+                android:left="3px">
+                <shape>
+                    <solid android:color="#a08e8d8d"/>
+                    <!-- alttan gölge -->
+                    <corners android:radius="6dp"/>
+                </shape>
+            </item>
+            <!-- BUTTON alttan gölge
+              android:right="5px" to make it round-->
+            <item
+                android:bottom="6px"
+                android:right="5px">
+                <shape>
+                    <padding android:bottom="5dp"/>
+                    <gradient
+                        android:startColor="#ffffffff"
+                        android:endColor="#ffffffff"
+                        android:angle="270" />
+                    <corners
+                        android:radius="6dp"/>
+                    <padding
+                        android:left="6dp"
+                        android:top="6dp"
+                        android:right="5dp"
+                        android:bottom="6dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="#96102746"/>
+                    <corners android:radius="6dp"/>
+
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="5px">
+                <shape>
+                    <padding android:bottom="3dp"/>
+                    <gradient
+                        android:startColor="#bc24e4da"
+                        android:endColor="#bc24e4da"
+                        android:angle="270" />
+                    <corners
+                        android:radius="6dp"/>
+                    <padding
+                        android:left="10dp"
+                        android:top="10dp"
+                        android:right="5dp"
+                        android:bottom="3dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:visibility="visible"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is your ideal weekend plan?"
+            android:textSize="20sp"
+            android:padding="6dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/first"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/shopping"/>
+                <TextView
+                    android:id="@+id/firsttext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shopping"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/firstbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/second"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/events"/>
+                <TextView
+                    android:id="@+id/secondtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Going to events"
+                    android:background="#fff"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/secondbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/third"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/barhopping"/>
+                <TextView
+                    android:id="@+id/thirdtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bar hopping"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/thirdbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fourth"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/foodie"/>
+                <TextView
+                    android:id="@+id/fourthtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Being a foodie"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/fourthbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/fifth"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/enjoying"/>
+                <TextView
+                    android:id="@+id/fifthtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Staying in and enjoying my view"
+                    android:textSize="12sp"
+                    android:padding="3dp"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/fifthbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/sixth"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/red_stroke_round"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/outdoors"/>
+                <TextView
+                    android:id="@+id/sixthtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Doing anything outdoors"
+                    android:background="#fff"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/sixthbutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/radioicon"
+                    android:layout_gravity="right"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

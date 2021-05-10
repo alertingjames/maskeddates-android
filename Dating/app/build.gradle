@@ -1,0 +1,119 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.date.maskeddates"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true    // Enable RS support
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/ECLIPSE_.SF'
+        exclude 'META-INF/ECLIPSE_.RSA'
+        exclude 'builddef.lst'
+        exclude 'version.txt'
+        exclude 'isoparser-default.properties'
+        exclude '.readme'
+    }
+}
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+    mavenCentral()
+    maven { url "https://maven.google.com" }
+    maven {
+        url 'https://dl.bintray.com/vsvankhede/maven/'
+    }
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    compile 'com.android.support:design:27.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    //noinspection GradleCompatible
+    compile 'com.google.firebase:firebase-core:11.8.0'
+    compile 'com.firebase:firebase-client-android:+'
+    compile 'com.google.android.gms:play-services:11.8.0'
+    compile 'com.google.android.gms:play-services-auth:11.8.0'
+    implementation 'com.google.android.gms:play-services-ads:11.8.0'
+    compile 'com.google.maps.android:android-maps-utils:0.5+'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.github.orangegangsters:swipy:1.2.3@aar'
+    compile 'com.ayz4sci.androidfactory:permissionhelper:1.1.0'
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    compile 'com.android.support:support-v13:23.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'jp.wasabeef:picasso-transformations:2.2.1'
+    compile 'com.android.support:cardview-v7:27.1.0'
+    // If you want to use the GPU Filters
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    compile 'com.github.mmin18:realtimeblurview:1.1.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    compile project(path: ':duo-navigation-drawer')
+    compile 'me.leolin:ShortcutBadger:1.1.16@aar'
+    compile 'commons-io:commons-io:1.3.2'
+    //    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.iceteck.silicompressorr:silicompressor:2.1'
+    compile 'com.github.lguipeng:BubbleView:1.0.1'
+    //    compile 'com.github.VivekKumarApps:InAppPurchaseDemo:1.0.1'
+    compile project(':inapppurchaselib')
+    compile 'com.vstechlab.easyfonts:easyfonts:1.0.0'
+    compile 'com.github.Cutta:GifView:1.1'
+    compile 'com.marozzi.roundbutton:round-button:1.0.7'
+    compile 'com.shawnlin:number-picker:2.4.6'
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    compile 'com.eyalbira.loadingdots:loading-dots:1.0.2'
+    compile 'com.daimajia.easing:library:2.0@aar'
+    compile 'com.daimajia.androidanimations:library:2.3@aar'
+    compile 'com.github.jd-alexander:LikeButton:0.2.3'
+    compile 'com.skyfishjy.ripplebackground:library:1.0.1'
+    compile 'com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library:0.1.0'
+    implementation 'io.apptik.widget:multislider:1.3'
+    implementation 'com.google.android:flexbox:0.3.2'
+    compile 'org.apache.commons:commons-lang3:3.6'
+    implementation files('libs/devsmartlib.jar')
+}
+apply plugin: 'com.google.gms.google-services'

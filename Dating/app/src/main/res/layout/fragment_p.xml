@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What age group do you prefer being with?"
+                android:textSize="18sp"
+                android:padding="6dp"
+                android:gravity="center"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gray_round">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/agegroup"/>
+            </FrameLayout>
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+                <RadioButton
+                    android:id="@+id/first"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Above 18"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/second"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="18 - 22"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/third"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="22 - 25"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/fourth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="26 - 30"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/fifth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="31 - 35"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/sixth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="36 - 40"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/seventh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="41 - 45"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:id="@+id/eighth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Above 45"
+                    android:background="@drawable/gray_round"
+                    android:padding="10dp"
+                    android:textSize="14sp"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/light_green_button_style"
+        android:src="@drawable/right_arrow"
+        android:id="@+id/proceedButton"
+        android:layout_gravity="right|bottom"/>
+    <com.cunoraz.gifview.library.GifView
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        custom:gif="@drawable/loader"/>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

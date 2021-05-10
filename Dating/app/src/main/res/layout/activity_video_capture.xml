@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".video.VideoCaptureActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:id="@+id/lytvideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videoView"
+                android:scrollbarThumbVertical="@anim/space"
+                android:layout_gravity="center" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/compressionMsg"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Compressing the video ..."
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#b7b7b7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#b7b7b7"
+            />
+        <TextView
+            android:id="@+id/txv_preview"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="PREVIEW"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#b7b7b7"
+            />
+        <TextView
+            android:id="@+id/txv_save"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:gravity="center"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#b7b7b7"
+            />
+        <TextView
+            android:id="@+id/txv_submit"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="COMPRESS"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#b7b7b7"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#b7b7b7"/>
+
+</LinearLayout>

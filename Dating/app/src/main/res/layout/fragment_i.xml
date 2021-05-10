@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do You Like Change?"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:padding="6dp"
+            android:gravity="center"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gray_round">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/likechange"/>
+        </FrameLayout>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <RadioButton
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, I embrace change"
+                android:gravity="center"
+                android:background="@drawable/red_stroke_round"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_red"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"
+                android:textSize="14sp"/>
+            <RadioButton
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sometimes, but I also like routine"
+                android:gravity="center"
+                android:background="@drawable/red_stroke_round"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_red"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"
+                android:textSize="14sp"/>
+            <RadioButton
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="No, I prefer things to stay the same"
+                android:gravity="center"
+                android:background="@drawable/red_stroke_round"
+                android:button="@android:color/transparent"
+                android:drawableRight="@drawable/right_arrow_red"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"
+                android:textSize="14sp"/>
+        </RadioGroup>
+    </LinearLayout>
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

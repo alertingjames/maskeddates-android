@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_shadow"
+    android:layout_margin="5dp"
+    tools:context="com.date.maskeddates.main.ViewUnraveledScoreActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/scorebar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_progressbar_drawable"
+            android:secondaryProgress="0" />
+        <TextView
+            android:id="@+id/txtProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/scorebar"
+            android:layout_centerInParent="true"
+            android:text="Unlocked 0%"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/com_facebook_close"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:onClick="closeActivity"/>
+    <com.eyalbira.loadingdots.LoadingDots
+        android:id="@+id/dots"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        app:LoadingDots_auto_play="true"
+        app:LoadingDots_dots_color="@color/colorAccent"
+        app:LoadingDots_dots_count="3"
+        app:LoadingDots_dots_size="12dp"
+        app:LoadingDots_dots_space="10dp"
+        app:LoadingDots_loop_duration="600"
+        app:LoadingDots_loop_start_delay="150"
+        app:LoadingDots_jump_duration="250"
+        app:LoadingDots_jump_height="40dp"/>
+</FrameLayout>
