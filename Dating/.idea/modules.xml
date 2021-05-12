@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dating.iml" filepath="$PROJECT_DIR$/Dating.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/duo-navigation-drawer/duo-navigation-drawer.iml" filepath="$PROJECT_DIR$/duo-navigation-drawer/duo-navigation-drawer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/inapppurchaselib/inapppurchaselib.iml" filepath="$PROJECT_DIR$/inapppurchaselib/inapppurchaselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dating.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dating.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/duo-navigation-drawer/Dating.duo-navigation-drawer.iml" filepath="$PROJECT_DIR$/.idea/modules/duo-navigation-drawer/Dating.duo-navigation-drawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inapppurchaselib/Dating.inapppurchaselib.iml" filepath="$PROJECT_DIR$/.idea/modules/inapppurchaselib/Dating.inapppurchaselib.iml" />
     </modules>
   </component>
 </project>
